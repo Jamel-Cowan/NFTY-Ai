@@ -1,4 +1,4 @@
-# AI NFT Generator
+# NFTy AI Generator
 
 ## Technology Stack & Tools
 
