@@ -11,7 +11,7 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <div className="nav__brand">
-                <img src="/public/logobanner.png" alt="Logo" />
+                <img src="public/logobanner.png" alt="Logo" />
             </div>
 
 
