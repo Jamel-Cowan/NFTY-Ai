@@ -7,8 +7,8 @@
 }
 
 :root {
-  --clr-white: #000000;
-  --clr-black: #ffffff;
+  --clr-white: #ffffff;
+  --clr-black: #202020;
   --clr-blue : #CB3928;
   --clr-blue-2: #A01800;
 }
@@ -18,6 +18,35 @@ body {
   font-family: "Play";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    /* Add background image properties */
+    background-image: url('../public/banner.png'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/* spinner mods */
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3); /* Change the color and opacity as needed */
+  border-top: 4px solid #ffffff; /* This sets the top border as white */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.spinner-border {
+  color: white; /* Set the color to white or any other desired color */
+  z-index: 1; /* Ensure the spinner is displayed above the background image */
+}
+.image__placeholder p {
+  margin: 0 10px;
+  color: white; /* Set the color to white or any other desired color */
 }
 
 /* ------------------------------------------------------ */

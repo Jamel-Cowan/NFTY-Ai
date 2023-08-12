@@ -1,5 +1,6 @@
 import { ethers } from 'ethers';
 
+
 const Navigation = ({ account, setAccount }) => {
     const connectHandler = async () => {
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -9,9 +10,10 @@ const Navigation = ({ account, setAccount }) => {
 
     return (
         <nav>
-            <div className='nav__brand'>
-                <h1>NFTy Ai Generator</h1>
+            <div className="nav__brand">
+                <img src="/public/logobanner.png" alt="Logo" />
             </div>
+
 
             {account ? (
                 <button
