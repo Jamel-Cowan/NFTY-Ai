@@ -10,9 +10,10 @@ const Navigation = ({ account, setAccount }) => {
 
     return (
         <nav>
-            <div className="nav__brand">
-                <img src="public/logobanner.png" alt="Logo" />
-            </div>
+        <div className="nav__brand">
+            <img src="public/logo192.png" alt="Logo" />
+            <h1>NFTy Ai Generator</h1>
+        </div>
 
 
             {account ? (
